@@ -1,2 +1,2 @@
 # Masjid-React
-Website for Abu Bakr Mosque; god everyday and general use. 
+Website for Abu Bakr Mosque; for everyday and general use. 
