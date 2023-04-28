@@ -17,8 +17,10 @@ const studentForm = (props) => {
                 id="pwd" 
                 name="pwd"/>
             </label>
-            
+
             <input type="submit" value="Submit"></input>
         </form>
     )
 }
+
+export default studentForm;

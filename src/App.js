@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
 import './App.css';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
           </div>
          
           <div className="links">
+          <Link to="/">Home </Link>
             <a href="#top">Home</a>
             <a href="#community">Community</a>
             <a href="#about">About</a>
@@ -31,6 +32,7 @@ function App() {
       <section id="community">
         <h2>Community</h2>
         <div className="container">
+        <Link to="/zakat">Zakat</Link>
           <div className="box">
             <i className="zakat-charity"></i>
             <h3>Zakat/Charity</h3>

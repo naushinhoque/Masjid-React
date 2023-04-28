@@ -37,3 +37,5 @@ const volunteerForm = (props) => {
         </form>
     )
 }
+
+export default volunteerForm;
