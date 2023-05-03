@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const volunteerForm = (props) => {
+const VolunteerForm = (props) => {
     return (
         <form id="volunteer">
             <h1>Volunteering With Your Community!</h1>
@@ -38,4 +38,4 @@ const volunteerForm = (props) => {
     )
 }
 
-export default volunteerForm;
+export default VolunteerForm;

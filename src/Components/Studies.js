@@ -1,6 +1,6 @@
 import React from 'react';
 
-const studentForm = (props) => {
+const StudentForm = (props) => {
     return (
         <form id="student">
             <h2>Login</h2>
@@ -23,4 +23,4 @@ const studentForm = (props) => {
     )
 }
 
-export default studentForm;
+export default StudentForm;

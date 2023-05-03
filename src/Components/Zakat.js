@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const zakatForm = (props) => {
+const ZakatForm = (props) => {
     return (
         <form id="zakat">
             <h2>Allah says: Zakat in the very early Makkan surah Al-Muzzammil:
@@ -51,4 +51,4 @@ const zakatForm = (props) => {
     )
 }
 
-export default zakatForm;
+export default ZakatForm;

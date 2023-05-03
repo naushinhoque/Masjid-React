@@ -1,8 +1,13 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Link, useNavigate } from 'react-router-dom'
 import './App.css';
+import ZakatForm from './Components/Zakat';
+import VolunteerForm from './Components/Volunteering';
+import RecForm from './Components/Rec';
+import StudentForm from './Components/Studies';
 
 function App() {
+  const navigate = useNavigate()
   return ( 
     <div className="App">
       <header className="App-header">
@@ -14,7 +19,6 @@ function App() {
          
           <div className="links">
           <Link to="/">Home </Link>
-            <a href="#top">Home</a>
             <a href="#community">Community</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
@@ -32,24 +36,31 @@ function App() {
       <section id="community">
         <h2>Community</h2>
         <div className="container">
-        <Link to="/zakat">Zakat</Link>
-          <div className="box">
+        
+          <div onClick={() => navigate('/zakat')} className="box">
             <i className="zakat-charity"></i>
             <h3>Zakat/Charity</h3>
           </div>
-          <div className="box">
+          <div onClick={() => navigate('/volunteer')} className="box">
             <i className="volunteering"></i>
             <h3>Volunteering</h3>
           </div>
-          <div className="box">
+          <div onClick={() => navigate('/rec')}className="box">
             <i className="rec-center"></i>
             <h3>Rec-Center</h3>
           </div>
-          <div className="box">
+          <div onClick={() => navigate('/student')} className="box">
             <i className="islamic-studies"></i>
             <h3>Islamic Studies</h3>
           </div>
         </div>
+        <Routes>
+          <Route path="zakat" element={<ZakatForm />} />
+          <Route path="volunteer" element={<VolunteerForm />} />
+          <Route path="rec" element={<RecForm />} />
+          <Route path="student" element={<StudentForm />} />
+        </Routes>
+        
       </section>
 
       <section className="hero-image">
