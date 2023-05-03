@@ -3,7 +3,8 @@ import React, { useState, useEffect } from 'react';
 const ZakatForm = (props) => {
     return (
         <form id="zakat">
-            <h2>Allah says: Zakat in the very early Makkan surah Al-Muzzammil:
+            <h1> Donation Form </h1>
+            <h2>Allah says: 
                 "Yet you shall duly establish the Prayer. And you shall give the 
                 Zakât-Charity, and therewith lend God a most goodly loan. For whatever 
                 good you advance for your souls, you shall find its reward with God in the 

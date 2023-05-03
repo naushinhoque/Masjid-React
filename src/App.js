@@ -28,8 +28,8 @@ function App() {
 
       <section id="top">
         <div className="titles">
-          <h1>"As-Salaam-Alaikum"</h1>
-          <h2>Fellow Brothers And Sisters  </h2>
+          <h1>As-Salaam-Alaikum</h1>
+          <h2>Brothers And Sisters!  </h2>
         </div>
       </section>
 
@@ -72,7 +72,14 @@ function App() {
         <div className="text">
           <i className="fas fa-paw"></i>
           <h2>Our Story</h2>
-          <p>Masjid Abu-Bakr has been in Houston for over a decade. Loved and maintaned by many of the members of our community. We hold Jummah every Friday (2 jammats for convenice). We hold events throuh out the week that will be present and updated on our website and social media. Our privalge and goal is to obey the word of allah and help our community financially and in faith. Come talk to our imams and visit our school! Give zakat to go to your local community and to go overseas to our brother and sister in need!</p>
+          <p> Masjid Abu-Bakr has been in Houston for over a decade.It is loved and maintaned by many of the generous members of 
+            our community! 
+              We hold Jummah every Friday (2 jammats for convenice). We hold events throuh out the week; they will be present and
+            updated on our website and social media. 
+              Our privalge and goal is to obey the word of allah and help our community 
+            financially and in faith. Come talk to our imams and visit our school! Give zakat to go to your local community and 
+            to go overseas to our brother and sister in need!
+          </p>
         </div>
       </section>
 
@@ -109,7 +116,7 @@ function App() {
 
         <div className="right">
           <div className="img-container">
-            <img src="https://lh3.googleusercontent.com/p/AF1QipOvaAMz1oHzS7h7ucYRgZuH3u4yDl86TXHLcek5=s1360-w1360-h1020"/>
+            <img src="https://lh3.googleusercontent.com/p/AF1QipN6hYq6jhseHIdgvzeU8i4PXknOy8aG1IJ_U7Qg=s1360-w1360-h1020"/>
           </div>
         </div>
       </section>
